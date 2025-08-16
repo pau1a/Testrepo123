@@ -1,5 +1,15 @@
-def say_hi():
-    print("hi")
+def ask_for_name():
+    return input("What is your name? ")
 
 
-say_hi()
+def say_hi(name):
+    print(f"hi {name}")
+
+
+def say_hi_to_person():
+    name = ask_for_name()
+    say_hi(name)
+
+
+say_hi_to_person()
+
