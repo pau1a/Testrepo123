@@ -11,5 +11,6 @@ def say_hi_to_person():
     say_hi(name)
 
 
-say_hi_to_person()
+if __name__ == "__main__":
+    say_hi_to_person()
 
