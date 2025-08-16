@@ -4,6 +4,7 @@ def ask_for_name():
 
 def say_hi(name):
     print(f"hi {name}")
+    print("My name is pie")
 
 
 def say_hi_to_person():
